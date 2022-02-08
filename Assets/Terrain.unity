@@ -667,16 +667,16 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: e1a497244c41d7f49956111fb383a345, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeDistance: 441
+  m_TreeBillboardDistance: 5
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
+  m_DetailObjectDistance: 224.8
+  m_DetailObjectDensity: 0.397
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
@@ -714,6 +714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163802121}
   - component: {fileID: 1163802120}
+  - component: {fileID: 1163802122}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionMain Camera
   m_TagString: Untagged
@@ -771,13 +772,22 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163802119}
-  m_LocalRotation: {x: 0.055006877, y: 0.9425199, z: 0.19497612, w: -0.26573464}
-  m_LocalPosition: {x: 64.05286, y: -34.894203, z: 239.8772}
+  m_LocalRotation: {x: -0.0075007956, y: -0.0029889878, z: -0.000011068418, w: -0.9999674}
+  m_LocalPosition: {x: -96.074814, y: -10.71534, z: -84.91095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1163802122
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163802119}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &1175129764
 GameObject:
   m_ObjectHideFlags: 0
